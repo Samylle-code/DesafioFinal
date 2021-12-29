@@ -1,0 +1,17 @@
+.cabecalho{
+	background:linear-gradient(to right,#F20544,#470718);
+	height: 52px;
+}
+
+.caixa{
+    margin: 0 auto;
+	width: 940px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    margin-left: 10px;
+    font-size: 20px;
+}
