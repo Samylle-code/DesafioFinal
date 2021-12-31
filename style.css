@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 .imagem{
-    display: inline-table;
+    
     width: 100%;
     height: 400px;
     background:url("banner.jpg");
@@ -19,7 +19,7 @@
     width: 100%;
     line-height: 30px;
     height: 30px;
-    margin-left: 3%;
+    margin: 7% 0 0 5%;
     font-family: 'Lato', sans-serif;
 }
 
@@ -35,8 +35,8 @@
     font-style: italic;
     font-weight: bold;
     font-size: 40px;
-    margin-left:7%;
+    margin:4% 0 0 7%;
 }
 .conteudo-principal{
-    margin-left:5%;
+    margin:1% 0 0 8%;
 }
