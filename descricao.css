@@ -1,0 +1,12 @@
+.descricao{
+    display: inline-block;
+    background-color: rgb(138, 13, 13);   
+    
+    
+}
+
+.descricaogeral{
+    text-align: center;
+    padding: 5%;
+}
+
