@@ -36,6 +36,7 @@ form{
     font-size: 4em;
     color: antiquewhite;
 }
+
 .btn {
     border-radius: 30px;
     font-family: HelveticaNeue;
@@ -64,6 +65,30 @@ form{
     line-height: 1.5;
     width: 255px;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}    
+}  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    margin:auto;
+    padding: 40px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+    margin: revert
+}
+
+
 
 
