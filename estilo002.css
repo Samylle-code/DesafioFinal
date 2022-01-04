@@ -24,3 +24,43 @@ form{
     height:1.5;
     font-family: "Playfair Display", serif;
 }
+
+.text-center {
+    text-align: center!important;
+}
+
+.fa-4x {
+    font-size: 4em;
+    color: antiquewhite;
+}
+.btn {
+    border-radius: 30px;
+    font-family: HelveticaNeue;
+    height: 45px;
+    text-transform: initial;
+    background-color: antiquewhite;
+}
+
+.btn:hover{
+   cursor: pointer;
+    transform: scale(1.2);
+    
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 3px solid transparent;
+    margin: 9px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: 255px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}    
+
+
