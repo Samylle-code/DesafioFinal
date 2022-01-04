@@ -23,6 +23,9 @@ form{
 .rodape{
     height:1.5;
     font-family: "Playfair Display", serif;
+    background:linear-gradient(38deg,#24262b, rgb(3, 39, 53), rgb(204, 187, 187));
+    padding: 20px 21px 69px;
+
 }
 
 .text-center {
