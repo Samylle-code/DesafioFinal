@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2? family = Playfair + Display: wght @ 400; 523; 900 & display = swap");
+
+.cadastro{
+    padding: 15px;
+    font-size: 20px;
+    font-family:'Poppins', sans-serif;
+    color: antiquewhite;   
+}
+
+form{
+    display: block;
+}
+
+.frase-cadastro{
+    font-size: 19px;
+    padding: 5px;
+    font-family: "Playfair Display", serif;
+    font-weight: lighter;
+    color:antiquewhite;
+    
+}
+
+.rodape{
+    height:1.5;
+    font-family: "Playfair Display", serif;
+}
