@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2? family = Playfair + Display: wght @ 400; 523; 900 & display = swap");
+
+.cadastro{
+    padding: 15px;
+    font-size: 20px;
+    font-family:'Poppins', sans-serif;
+    color: antiquewhite;   
+}
+
+form{
+    display: block;
+}
+
+.frase-cadastro{
+    font-size: 19px;
+    padding: 5px;
+    font-family: "Playfair Display", serif;
+    font-weight: lighter;
+    color:antiquewhite;
+    
+}
+
+.rodape{
+    height:1.5;
+    font-family: "Playfair Display", serif;
+    background:linear-gradient(38deg,#24262b, rgb(3, 39, 53), rgb(204, 187, 187));
+    padding: 20px 21px 69px;
+
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.fa-4x {
+    font-size: 4em;
+    color: antiquewhite;
+}
+
+.btn {
+    border-radius: 30px;
+    font-family: HelveticaNeue;
+    height: 45px;
+    text-transform: initial;
+    background-color: antiquewhite;
+}
+
+.btn:hover{
+   cursor: pointer;
+    transform: scale(1.2);
+    
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 3px solid transparent;
+    margin: 9px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: 255px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    margin:auto;
+    padding: 40px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+    margin: revert
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size:18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: "";
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63 ;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block ;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #1321e4;
+    padding-left: 8px;
+}
+
+.footer-col .redes-sociais a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .redes-sociais a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+.copyright{
+    width: 100%;
+    background-color: #e91e63 ;
+    height: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: -30px;
+    
+}
+
+div > p {
+    padding-top: 15px;
+}
+
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:574px){
+    .footer-col{
+        width: 100%;
+    }
+}
+
+.top-link {
+    transition: all .25s ease-in-out;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: inline-flex;
+     
+   cursor: pointer;
+   align-items: center;
+   justify-content: center;
+   margin: 0 3em 3em 0;
+   border-radius: 50%;
+   padding: .25em;
+   width: 80px;
+   height: 80px;
+   background-color: rgba(255, 255, 255, 0.63);
+}   
+
+.show {
+    visibility: visible;
+    opacity: 1;
+}
+   
+.hide {
+    visibility: hidden;
+    opacity: 0;
+}
+
+svg {
+    fill:black;
+    width: 24px;
+    height: 12px;
+}
+    
+.screen-reader-text {
+    position: absolute;
+    clip-path: inset(50%);
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    word-wrap: normal !important;
+    clip: rect(1px, 1px, 1px, 1px);
+ 
+}
+
+.screen-reader-text :focus {
+    display: block;
+    top: 5px;
+    left: 5px;
+    z-index: 100000; 
+    clip-path: none;
+    background-color: #eee;
+    padding: 15px 23px 14px;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    line-height: normal;
+    color: #444;
+    font-size: 1em;
+    clip: auto !important;
+}
+
+
+
