@@ -1,0 +1,22 @@
+.integrante{
+    display: inline-block;
+}
+.foto{
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    margin-left: 400px;
+}
+.Sobre{
+    opacity: 100;
+    font-weight: 100;
+    display: inline-block;
+    text-align: justify;
+    margin-top: 20px;
+    vertical-align: top;
+    width: 35%;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 40px;
+    
+}

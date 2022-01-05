@@ -1,12 +1,12 @@
 .descricao{
     display: inline-block;
-    background-color: rgb(138, 13, 13);   
+    background:linear-gradient(38deg,#24262b, rgb(3, 39, 53), rgb(204, 187, 187));
     
     
 }
 
 .descricaogeral{
     text-align: center;
-    padding: 5%;
+    padding: 20px;
 }
 
