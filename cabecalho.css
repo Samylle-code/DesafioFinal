@@ -1,3 +1,6 @@
+html{
+	scroll-behavior:smooth;
+}
 .cabecalho{
 	background:linear-gradient(to left, #e91e63,#00d16b);
 	height: 52px;
