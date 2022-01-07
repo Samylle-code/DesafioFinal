@@ -1,6 +1,6 @@
 .descricao{
     display: inline-block;
-    background:linear-gradient(38deg,#24262b, rgb(3, 39, 53), rgb(204, 187, 187));
+    background:rgb(0, 0, 0);
     
     
 }
@@ -8,5 +8,6 @@
 .descricaogeral{
     text-align: center;
     padding: 20px;
+    color: #ffff;
 }
 

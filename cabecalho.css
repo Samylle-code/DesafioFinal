@@ -1,10 +1,9 @@
 .cabecalho{
-	background:linear-gradient(to right,#F20544,#470718);
+	background:#030303;
 	height: 52px;
 }
 
 .caixa{
-    margin: 0 auto;
 	width: 940px;
     text-align: right;
 }
