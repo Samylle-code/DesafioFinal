@@ -1,20 +1,25 @@
 .cabecalho{
-	background:linear-gradient(to right,#F20544,#470718);
+	background:linear-gradient(to left, #e91e63,#00d16b);
 	height: 52px;
 }
 
 .caixa{
-    margin: 0 auto;
+    float: right;
+    padding: 15px;
 	width: 940px;
     text-align: right;
 }
 
 nav a {
-    
+    padding: 25px;
     text-decoration: none;
-    color: whitesmoke;
-    margin-left: 10px;
-    font-size: 20px;
-    font-family: 'Times New Roman';
+    color: white;
+    font-size: 15px;
+    font-family: 'Righteous', cursive;
     
+}
+
+nav a:hover{
+    background-color: #f5adc5 ;
+    color: black;
 }
