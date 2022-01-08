@@ -10,6 +10,11 @@ html{
 	height: 52px;
 }
 
+.imgcabecalho{
+    width: 10%;
+    height: 10%;
+}
+
 .caixa{
     float: right;
     padding: 15px;
