@@ -1,3 +1,7 @@
+@font-face {
+    font-family: fontfamily;
+    src: url("'https://fonts.google.com/specimen/css2? family = Righteous + Display: wght @ 400; 523; 900 & display = swap") format('opentype');
+  }
 html{
 	scroll-behavior:smooth;
 }

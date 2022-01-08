@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2? family = Playfair + Display: wght @ 400; 523; 900 & display = swap");
+@font-face {
+    font-family: fontfamily;
+    src: url("https://fonts.googleapis.com/css2? family = Playfair + Display: wght @ 400; 523; 900 & display = swap") format('opentype');
+  }
 
 .cadastro{
     padding:10px 2px 7px 15px;
@@ -15,6 +18,7 @@
     font-size: 19px;
     padding: 5px;
     font-family: "Playfair Display", serif;
+
     font-weight: lighter;
     color:antiquewhite;
     
