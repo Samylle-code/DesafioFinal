@@ -4,7 +4,7 @@
 .banner{
     display: absolute;
     
-    height: 560px;
+    height: 525px;
     
 }
 
@@ -17,8 +17,8 @@
     width: 70%;
     line-height: 30px;
     height: 20px;
-    margin: 9% 0 0 5%;
-    font-family: 'Lato', sans-serif;
+    margin: 17% 0 0 5%;
+    font-family:  montserrat;
 }
 
 .titulo-principal{
@@ -31,7 +31,7 @@
 
 
 .conteudo-principal{
-    font-family:  sans-serif;
+    font-family:   montserrat;
     font-size:20px;
     margin:3% 0 0 0%;
 }
