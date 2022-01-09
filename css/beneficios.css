@@ -10,16 +10,23 @@ html{
 }
 
 .beneficios{
+    display: inline-flex;
     background: #00D16B;
     padding: 40px;  
     width: 1310px;
     height: 600px;
 }
 
+.fundoSlogan{
+   
+    width:238px; 
+    height:802px; 
+    background-color: rgba(36,38,43,1); 
+    border-radius : 8px
+}
 .slogan{
    
-    background: #26262b;
-    text-align: right;
+    text-align: left;
     font-weight: bold;
     font-size: 25px;
     font-family: montserrat; 
@@ -28,9 +35,10 @@ html{
     
 }
 .subtituloproduto{
+    display: inline-block;
+    height: 100px;
     font-weight: bold;
     font-size: 25px;
-    margin:3% 19% 0 0;
     font-family: montserrat; 
     text-transform: uppercase;
 }
@@ -44,9 +52,8 @@ html{
    
    
     font-weight: 100;
-    display: inline-block;
+    position:relative;
     text-align: justify;
-    vertical-align: top;
     width: 35%;
     margin-right: 15%;
     font-size: 20px;
