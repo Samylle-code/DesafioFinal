@@ -16,11 +16,22 @@ html{
     height: 600px;
 }
 
+.slogan{
+   
+    background: #26262b;
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: montserrat; 
+    color:#fff;
+    text-transform: uppercase;
+    
+}
 .subtituloproduto{
     font-weight: bold;
     font-size: 25px;
     margin:3% 19% 0 0;
-    font-family: 'Nunito Sans', sans-serif; 
+    font-family: montserrat; 
     text-transform: uppercase;
 }
 .produtos2{
