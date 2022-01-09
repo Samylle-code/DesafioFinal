@@ -1,0 +1,35 @@
+*{ margin: 0; padding:0; box-sizing: border-box; }
+#corpo-produtos{
+    display: grid;
+    place-items: center;
+    height:100vh;
+}
+.carrossel-produtos{
+    
+    width:50vw;
+ }
+
+ .produtos-principais{
+     display:flex;
+
+     overflow-x:auto;
+    
+ }
+ .item{
+     flex:none;
+
+     width: 70%;
+     height: 325px;
+
+     
+     padding-left: 400px ;
+
+ }
+ img {
+   width:100%;
+   height:100%;
+   
+   object-fit: cover;
+ }
+
+ 

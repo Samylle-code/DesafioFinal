@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+
+.banner{
+    display: absolute;
+    
+    height: 525px;
+    
+}
+
+
+.texto {
+    position: absolute;
+    color:#fff;
+    text-align:justify;
+    top: 80px;
+    width: 70%;
+    line-height: 30px;
+    height: 20px;
+    margin: 17% 0 0 5%;
+    font-family:  montserrat;
+}
+
+.titulo-principal{
+
+    font-size: 50px;
+    text-shadow: -0.2vw -0.2vw -0.2vw rgb(0, 0, 0), 0 0 3vw #ffff;
+    text-shadow: 0.2vw 0.2vw 0.2vw rgb(0, 0, 0), 0 0 3vw #ffff; 
+    
+}
+
+
+.conteudo-principal{
+    font-family:   montserrat;
+    font-size:20px;
+    margin:3% 0 0 0%;
+}

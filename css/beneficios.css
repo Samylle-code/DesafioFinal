@@ -1,0 +1,62 @@
+html{
+	scroll-behavior:smooth;
+}
+
+.subtitulo{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    margin:4% 0 0 7%;
+}
+
+.beneficios{
+    display: inline-flex;
+    background: #00D16B;
+    padding: 40px;  
+    width: 1310px;
+    height: 600px;
+}
+
+.fundoSlogan{
+   
+    width:238px; 
+    height:802px; 
+    background-color: rgba(36,38,43,1); 
+    border-radius : 8px
+}
+.slogan{
+   
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: montserrat; 
+    color:#fff;
+    text-transform: uppercase;
+    
+}
+.subtituloproduto{
+    display: inline-block;
+    height: 100px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: montserrat; 
+    text-transform: uppercase;
+}
+.produtos2{
+    height: 50%;
+    width: 40%;
+    
+}
+
+.textoproduto{
+   
+   
+    font-weight: 100;
+    position:relative;
+    text-align: justify;
+    width: 35%;
+    margin-right: 15%;
+    font-size: 20px;
+    font-family: montserrat;
+
+}

@@ -4,106 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css/apresentacao.css">
+    <title>Catálogo</title>
     <link rel="stylesheet" type="text/css" href="css/estilo002.css">
+    <link rel="stylesheet" type="text/css" href="css/cabecalho.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/catalogo.css">
 </head>
-<body> 
-    <section>
-        <div id="site">
-            <div id="cabecalho">
-                <div id="menu-principal">
-                    <ul>
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a class="ativo" href="empresa.html">Empresa</a>
-                        </li>
-                        <li>
-                            <a href="servicos.html">Serviços</a>
-                        </li>
-                        <li>
-                            <a href="contato.html">Contato</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div id="conteudo">
-                <div id="conteudo-principal">
-        
-                    <!-- conteúdo da seção Empresa aqui -->
-        
-                </div>
-                <div id="conteudo-secundario">
-        
-                    <!-- conteúdo da seção Empresa aqui -->
-        
-                </div>
-            </div>
-    </section>
-    <section>
-    <div id="conteudo-principal">
-        <h1>Empresa</h1>
-    
-        <p>
-            O grupo Innovare ...
-        </p>
-    
-        <h2>Missão</h2>
-    
-        <p>
-            A missão do nosso grupo é ...
-        </p>
-    
-        <h2>Valores</h2>
-    
-        <ul>
-            <li>Respeito</li>
-            <li>Prezar pela qualidade</li>
-            <li>Igualdade</li>
-            <li>O cliente está em primeiro lugar</li>
-        </ul>
-    </div>
-    </section>
-    <main>
-        <section><div class="apresentacao">
-            <div class="criadores">
-                <div class="integrante">
-                    <img src="imgEmpresa/sam.jpg" class="foto"alt="Samylle"  >
-                
-                </div>
-                <div class="integrante">
-                <img src="imgEmpresa/othávio.jpg" class="foto" alt="Othávio">
-               
-                
-                </div>
-                <div class="integrante">
-                <img src="imgEmpresa/bia.jpg" class="foto" alt="Beatriz" >
-                 
-                </div>
-                <div class="integrante">
-                <img src="imgEmpresa/esther.jpg" class="foto" alt="Esther">
-            
-                
-                </div>
-                <div class="integrante">
-                <img src="imgEmpresa/artur.jpg" class="foto" alt="Artur">
-
-                </div>    
-                <div class="integrante">
-                <img src="imgEmpresa/shermany.jpg" class="foto" alt="Shermany">
-                
-                </div>
-                <div class="integrante">
-                <img src="imgEmpresa/Sesma.jpg" class="foto" alt="Vinicius">
-                
-                </div>  
-                
-            </div>
+<body>
+    <header >
+        <div class="NomeEmpresa">
+            <h3>INNOVARE</h3>
         </div>
-    </section>
-</main>
+        <div class="cabecalho">
+           
+            <img src="" class="imgcabecalho">
+            
+            <div class="caixa">
+                <nav>
+                    <a href="#menu">MENU</a>
+                    <a href="#produtos">NOSSOS PRODUTOS</a>
+                    <a href="#quem-somos">QUEM SOMOS</a>
+                    <a href="#beneficios">BENEFÍCIOS</a>
+                    
+                </nav>
+            </div> 
+        </div>
+       <img src="banner.jpg" id="bannerCatalogo">
+    </header>
+    <main>
+       <section>
+
+               
+
+        <div class="paginaCatalogo">
+        
+           <div class="catalogoMenu">
+            <div class="menuProdutos">
+                <nav>
+                <li><a href="catalogo.html" class="tituloCatalogo">Catálogo</a></li>
+                 <a href="#Feminino">Feminino</a>
+                <a href="#Masculino">Masculino</a>
+                </nav>
+            </div>
+               <ul class="catalogo1">
+                   <li><img src="imgprodutos/produto3.jpg" id="imgCatalogo1"alt="3"></li>
+                   <li><img src="imgprodutos/produto2.jpg" id="imgCatalogo1" alt="2"></li>
+                   <li><img src="imgprodutos/produto1.jpg" id="imgCatalogo1" alt="1"></li>
+               </ul>
+               <ul class="catalogo2">
+                   <li><img src="imgprodutos/produto4.jpg" id="imgCatalogo" alt="4"></li>
+                   <li><img src="imgprodutos/produto5.jpg" id="imgCatalogo" alt="5"></li>
+                   <li><img src="imgprodutos/produto6.jpg" id="imgCatalogo" alt="6"></li>
+               </ul>
+           </div>
+        </div>
+       </section> 
+    </main>
     <footer class="rodape"> 
         <form  class="text-center">
 
@@ -170,5 +126,14 @@
             <p> <i class="far fa-copyright"></i> Copyright Innovare - 2022  </p>
         </div>
    </footer>
+
+    <a class="top-link hide" href="" id="js-top">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></svg>
+        <span class="screen-reader-text">Back to top</span>
+    </a>
+    
+    <script src="botao-voltaraotopo.js"></script>
+    <script src="https://kit.fontawesome.com/ae5c5bae8d.js" crossorigin="anonymous"></script>
+    <script src="carrossel.js"></script>
 </body>
 </html>

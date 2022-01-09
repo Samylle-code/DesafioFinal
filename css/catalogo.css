@@ -1,0 +1,60 @@
+*{margin:0; border:0;}
+.paginaCatalogo{
+    display: inline-flex;
+    background: #00D16B;
+    font-family: montserrat;
+    width: 1320px;
+    height: 600px;
+}
+.catalogoMenu{
+    
+    background: #ffff;
+    
+    margin: 120px 0 0 220px;
+    width: 900px;
+    height: 480px;
+}
+
+.menuProdutos{
+    background: black;
+    height:60px;
+}
+
+#bannerCatalogo{
+    width: 1310px;
+    height: 70px;
+}
+.menuProdutos nav a{
+    display: flex;
+    float: right;
+    padding-right: 100px;
+    width: 12px;
+    height:12px;
+}
+.tituloCatalogo{
+    font-size: 25px;
+    padding-left: 500px;
+    
+}
+.catalogo1{
+    display: flex;
+    width: 450px;
+    height: 220px;
+}
+
+.catalogo2{
+    display: flex;
+}
+
+
+#imgCatalogo1{
+    width: 200px;
+    height: 200px;
+    margin: 20px 0 90px 60px;
+}
+
+#imgCatalogo{
+    width: 230px;
+    height: 200px;
+    margin: 0 0 90px 40px;
+}
