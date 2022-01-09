@@ -1,3 +1,6 @@
+html{
+	scroll-behavior:smooth;
+}
 
 .subtitulo{
     font-style: italic;
@@ -7,10 +10,9 @@
 }
 
 .beneficios{
-    
+    background: #00D16B;
     padding: 40px;  
-    background: rgb(253, 253, 253);
-    width: 1235px;
+    width: 1310px;
     height: 600px;
 }
 
