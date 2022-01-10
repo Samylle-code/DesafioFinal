@@ -12,7 +12,6 @@
 	width: 940px;
 	position: relative;
 	margin: 0 auto;
-	text
 	font-family: montserrat;
 }
 
@@ -36,6 +35,7 @@
 	padding: 9px;
 	font-family:monserrat;
 	font-size: 22px;
+	scroll-behavior: auto;
 }
 .links-faq:hover{
 		text-decoration: bold;
@@ -43,6 +43,11 @@
 .pergunta{
 	margin: 37px 0;
 	color: white;
+	display: none;
+}
+.pergunta:target{
+	display: inline-block;
+	scroll-margin-top: 200px;
 }
 .perguntas{
 	font-size: 32px;

@@ -78,6 +78,7 @@
     flex-direction: column;
     align-items: center;
     display: none;
+    scroll-margin-top: 200px;
 }
 
 .team-description:target {
