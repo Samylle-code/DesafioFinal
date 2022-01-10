@@ -1,0 +1,53 @@
+
+.conteudo-principal{
+
+	display: inline-flex;
+    background: #00D16B;
+    padding: 40px;
+    width: 1310px;
+    margin: 0;
+  
+}
+.principal{
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+	text
+	font-family: montserrat;
+}
+
+.titulo-pricipal{
+	font-family: montserrat;
+	font-size: 60px;
+}
+.navegaçao{
+	background: #00D16F;
+
+}
+.faq-navegaçao{
+		margin: 20px
+}
+.faq-navegaçao ul{
+	list-style-type: disc ;
+	color: white;
+}
+.links-faq{
+	display: block;
+	padding: 9px;
+	font-family:monserrat;
+	font-size: 22px;
+}
+.links-faq:hover{
+		text-decoration: bold;
+}
+.pergunta{
+	margin: 37px 0;
+	color: white;
+}
+.perguntas{
+	font-size: 32px;
+}
+
+div p{
+	font-size: 21px;
+}
