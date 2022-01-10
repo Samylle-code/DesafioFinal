@@ -8,6 +8,15 @@
     background-image: url("banner.jpg");
     display: flex;
 }
+
+#Empresa{
+   margin-right: 100px;
+}
+
+#Missão {
+    margin-right: 100px;
+}
+
 .fundo {
      background-color: #00D16B; 
      font-family: 'Roboto Condensed', sans-serif;
