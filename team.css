@@ -4,8 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body  {
+#conteudo-principal {
+    background-image: url("banner.jpg");
+    display: flex;
+}
+.fundo {
      background-color: #00D16B; 
      font-family: 'Roboto Condensed', sans-serif;
      color:#fff
@@ -54,8 +57,8 @@ body  {
 }
 
 .team-figure {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
 
     border-radius: 50%;
     overflow: hidden;
