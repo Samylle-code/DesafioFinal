@@ -104,3 +104,23 @@
     margin-top: 3rem;
     font-size: 30px;
 }
+
+.rede-social a{
+    display: inline-block;
+    height: 93px;
+    width: 93px;
+    background-color: rgb(14 11 11 / 20%);
+    margin: 12px 0px -50px 2px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 3em;
+    transition: all 0.6s ease;
+    padding: 23px 19px 0px 21px;
+}
+
+div > .rede-social> a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
