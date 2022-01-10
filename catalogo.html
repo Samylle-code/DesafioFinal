@@ -1,24 +1,16 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <script src="https://kit.fontawesome.com/754447259f.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Innovare</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Catálogo</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo002.css">
     <link rel="stylesheet" type="text/css" href="css/cabecalho.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/carrossel.css">
-    <link rel="stylesheet" type="text/css" href="css/principal.css">
-    <link rel="stylesheet" type="text/css" href="css/beneficios.css">
-    <link rel="stylesheet" type="text/css" href="css/descricao.css">
-    <link rel="stylesheet" type="text/css" href="css/estilo002.css">
-    <link rel="stylesheet" type="text/css" href="team.css">
-   
-    
+    <link rel="stylesheet" type="text/css" href="css/catalogo.css">
 </head>
 <body>
-
     <header >
         <div class="NomeEmpresa">
             <h3>INNOVARE</h3>
@@ -27,88 +19,48 @@
            
             <img src="" class="imgcabecalho">
             
-            <div class="caixa" style="text-align: start;">
+            <div class="caixa">
                 <nav>
                     <a href="#menu">MENU</a>
-                    <a href="catalogo.html">NOSSOS PRODUTOS</a>
+                    <a href="#produtos">NOSSOS PRODUTOS</a>
                     <a href="team.html">QUEM SOMOS</a>
-                    <a href="#beneficios">BENEFÍCIOS</a>
+                    <a href="index.html#beneficios">BENEFÍCIOS</a>
                     
                 </nav>
             </div> 
         </div>
-       
+       <img src="banner.jpg" id="bannerCatalogo">
     </header>
-
     <main>
-        <section>
-            
-            <div class="banner">
-             
-                <img src="banner/banner3.jpg">
-                
-            </div>
-            
-            <div class="texto">
-                
-            <h3 class="titulo-principal"> Descontos especiais para 2022 </h2>
-            <h3 class="conteudo-principal"> Juntos iremos inovar o time e garantir a vitória!</h3>
-            </div>
-   
-        </section>
+       <section>
 
-        
-        <section>
-        
-        <div class="carrosel-produtos">
-            <div class="produtos-principais">
-                <div class="item">
-                    <img class="box-produto" src="imgprodutos/produto1.jpg" alt="img1">
-                </div>
-                <div class="item">
-                    <img class="box-produto" src="imgprodutos/produto3.jpg" alt="img3">
-                </div>
-                <div class="item">
-                    <img class="box-produto" src="imgprodutos/produto4.jpg" alt="img4">
-                </div>
-                <div class="item">
-                    <img class="box-produto" src="imgprodutos/produto5.jpg" alt="img5">
-                </div>
                
-            </div>
-        </div>
+
+        <div class="paginaCatalogo">
         
-            <div class="descricao">
-                <div class="descricaogeral" style="font-size: large;">
-                    <h3 class="titulodescricao">Sobre o sapato</h3>
-                    <p class="textodescricao"> As linhas parceiras da nossa empresa estão cientes do nosso compromisso 
-                em entregar as melhores peças. Portanto os produtos são reconhecidos pelo seu conforto e estilo. 
-                Tenha a sua primeira experiencia e inove no esporte com a gente.</p>     
-                </div>
-            </div>    
-
-        </section>
-
-        <section>
-              
-            <div class="beneficios" id="beneficios">
-                <div class="fundoSlogan">
-                 <p class="slogan"> Venha <br> conferir os <br> nossos <br> produtos</p> 
-                </div>
-
-                <div style="margin-left: 2cm; margin-top: 0.5cm;">
-                    <h2 class="subtituloproduto"> Novas peças confortáveis para você</h2>
-                    <h3 class="textoproduto" style="width: fit-content; font-weight: 550;"> Nossos sapatos são de extrema qualidade e super confortáveis, transformando atividades rotineiras como praticar 
-                    exercícios físicos e esportes, ou apenas ir ao mercado em algo prazeroso e confortável para os seus pés.</h3>  
-                </div>
-                <img src="imgEmpresa/402618be-4138-405d-af81-46de44474a1e.jpg" class="produtos2">
-                
+           <div class="catalogoMenu">
+            <div class="menuProdutos">
+                <nav>
+                <li><a href="catalogo.html" class="tituloCatalogo">Catálogo</a></li>
+                 <a href="#Feminino">Feminino</a>
+                <a href="#Masculino">Masculino</a>
+                </nav>
             </div>
-    
-        </section>
+               <ul class="catalogo1">
+                   <li><img src="imgprodutos/produto3.jpg" id="imgCatalogo1"alt="3"></li>
+                   <li><img src="imgprodutos/produto2.jpg" id="imgCatalogo1" alt="2"></li>
+                   <li><img src="imgprodutos/produto1.jpg" id="imgCatalogo1" alt="1"></li>
+               </ul>
+               <ul class="catalogo2">
+                   <li><img src="imgprodutos/produto4.jpg" id="imgCatalogo" alt="4"></li>
+                   <li><img src="imgprodutos/produto5.jpg" id="imgCatalogo" alt="5"></li>
+                   <li><img src="imgprodutos/produto6.jpg" id="imgCatalogo" alt="6"></li>
+               </ul>
+           </div>
+        </div>
+       </section> 
     </main>
-             
-      <footer class="rodape"> 
+    <footer class="rodape"> 
         <form  class="text-center">
 
             <div class= "fa-4x">
@@ -184,5 +136,4 @@
     <script src="https://kit.fontawesome.com/ae5c5bae8d.js" crossorigin="anonymous"></script>
     <script src="carrossel.js"></script>
 </body>
-
 </html>

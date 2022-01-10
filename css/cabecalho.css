@@ -41,7 +41,7 @@ nav a {
     text-decoration: none;
     color: white;
     font-size: 15px;
-    font-family: 'Righteous', cursive;
+    font-family:  montserrat;
     
 }
 
@@ -50,7 +50,7 @@ nav a:hover{
     padding-bottom: 19px;
     text-decoration: none;
     font-size: 15px;
-    font-family: 'Righteous', cursive;
+    font-family:  montserrat;
     background-color: #f5adc5 ;
     background-size: auto;
     color: black;
