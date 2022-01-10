@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/cabecalho.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/catalogo.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
 </head>
 <body>
     <header >
@@ -21,8 +22,8 @@
             
             <div class="caixa">
                 <nav>
-                    <a href="#menu">MENU</a>
-                    <a href="#produtos">NOSSOS PRODUTOS</a>
+                    <a href="index.html">MENU</a>
+                    <a href="catalogo.html">NOSSOS PRODUTOS</a>
                     <a href="team.html">QUEM SOMOS</a>
                     <a href="index.html#beneficios">BENEFÍCIOS</a>
                     
@@ -43,16 +44,98 @@
                         </div>
                     </nav>
                     <ul class="catalogo1">
-                        <li style="margin-left: 35px;"><img src="imgprodutos/produto3.jpg" id="imgCatalogo1"alt="3"><button style="background-color: red; color: white; width: 180px; height: 30px;">Saiba Mais</button></li>
-                        <li style="margin-left: 150px;"><img src="imgprodutos/produto2.jpg" id="imgCatalogo1" alt="2"><button style="background-color: red; color: white; width: 180px; height: 30px;">Saiba Mais</button></li>
-                        <li style="margin-left: 150px;"><img src="imgprodutos/produto1.jpg" id="imgCatalogo1" alt="1"><button style="background-color: red; color: white; width: 180px; height: 30px;">Saiba Mais</button></li>
+                        <li style="margin-left: 35px;">
+                            <img src="imgprodutos/produto3.jpg" id="imgCatalogo1"alt="3">
+                            <nav> 
+                                
+                                <button type="button" style="background-color: red; color: white; width: 180px; height: 30px"  > 
+                                <a href="#bg3" >    Saiba Mais </a> 
+                                </button>  
+                               
+                            </nav>
+                        </li>
+                        <li style="margin-left: 150px;">
+                            <img src="imgprodutos/produto2.jpg" id="imgCatalogo1" alt="2">
+                            <nav> 
+                                
+                                <button type="button" style="background-color: red; color: white; width: 180px; height: 30px; margin-left: 0px;"  > 
+                                <a href="#bg2" class="textoBotao" >    Saiba Mais </a> 
+                                </button>  
+                               
+                            </nav>
+                        </li>
+                        <li style="margin-left: 150px;"><img src="imgprodutos/produto1.jpg" id="imgCatalogo1" alt="1">
+                            <nav> 
+                                
+                                <button type="button" style="background-color: red; color: white; width: 180px; height: 30px" > 
+                                <a href="#bg1" >    Saiba Mais </a> 
+                                </button>  
+                               
+                            </nav>
+                        </li>
                     </ul>
                     <ul class="catalogo2">
-                        <li><img src="imgprodutos/produto4.jpg" id="imgCatalogo" alt="4" style="margin-left: 150px; margin-top: -12px;"></li>
-                        <li><button style="background-color: red; color: white; width: 235px; height: 30px; margin-left: -235px; margin-top: 170px;">Saiba Mais</button></li>
-                        <li><img src="imgprodutos/produto5.jpg" id="imgCatalogo" alt="5" style="margin-left: 80px; width: 260px; margin-top: -12px;"></li>
-                        <li><button style="background-color: red; color: white; width: 260px; height: 30px; margin-left: -260px; margin-top: 170px;">Saiba Mais</button></li>
+                            <li><img src="imgprodutos/produto4.jpg" id="imgCatalogo" alt="4" style="margin-left: 150px; margin-top: -12px;"></li>
+                        <div >
+                            <nav class="botaoAcesso"> 
+                                
+                                <button type="button" style="background-color: red; color: white; width: 180px; height: 30px" > 
+                                <a href=#bg4" >    Saiba Mais </a> 
+                                </button>  
+                               
+                            </nav>
+                        </div>
+                            <li><img src="imgprodutos/produto5.jpg" id="imgCatalogo" alt="5" style="margin-left: 80px; width: 260px; margin-top: -12px;"></li>
+                        <div >
+                            <nav class="botaoAcesso">
+                                <button type="button" style="background-color: red; color: white; width: 180px; height: 30px" > 
+                                    <a href="#bg5" >    Saiba Mais </a> 
+                                </button> 
+                        </nav>
+                     </div>
                     </ul>
+                </div>
+            </div>
+
+            <div id="bg1" class="bg">
+                <div class="box">
+                    <a href="" id="close"> X </a><a href="" id="close"> X </a>
+                    <img src="imgprodutos/produto1.jpg">
+                    <p style="color: black; margin-top: 320px; font-size: 20px; text-align: center;"> Valor: 150,00 </p>
+                    
+                    
+                </div>
+            </div>
+            <div id="bg2" class="bg">
+                <div class="box">
+                    <a href="" id="close"> X </a><a href="" id="close"> X </a>
+                    <img src="imgprodutos/produto2.jpg">
+                    <p style="color: black; margin-top: 320px; font-size: 20px; text-align: center;"> Valor: 150,00 </p>
+                    
+                </div>
+            </div>
+            <div id="bg3" class="bg">
+                <div class="box">
+                    <a href="" id="close"> X </a><a href="" id="close"> X </a>
+                    <img src="imgprodutos/produto3.jpg">
+                    <p style="color: black; margin-top: 320px; font-size: 20px; text-align: center;"> Valor: 150,00 </p>
+                    
+                </div>
+            </div>
+            <div id="bg4" class="bg">
+                <div class="box">
+                    <a href="" id="close"> X </a><a href="" id="close"> X </a>
+                    <img src="imgprodutos/produto4.jpg">
+                    <p style="color: black; margin-top: 320px; font-size: 20px; text-align: center;"> Valor: 150,00 </p>
+                    
+                </div>
+            </div>
+            <div id="bg5" class="bg">
+                <div class="box">
+                    <a href="" id="close"> X </a><a href="" id="close"> X </a>
+                    <img src="imgprodutos/produto5.jpg">
+                    <p style="color: black; margin-top: 320px; font-size: 20px; text-align: center;"> Valor: 150,00 </p>
+                    
                 </div>
             </div>
         </section> 

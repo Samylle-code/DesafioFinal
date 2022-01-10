@@ -13,14 +13,14 @@ html{
     display: inline-flex;
     background: #00D16B;
     padding: 40px;  
-    width: 1350px;
+    width: 1310px;
     height: 600px;
 }
 
 .fundoSlogan{
    
     width:500px; 
-    height:802px; 
+    height:602px; 
     background-color: rgba(36,38,43,1); 
     border-radius : 8px
 }
