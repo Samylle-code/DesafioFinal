@@ -18,10 +18,10 @@
 .titulo-pricipal{
 	font-family: montserrat;
 	font-size: 60px;
-	color: white;
+	color: #262626;
 }
 .navegaçao{
-	background: #0ba15b;	
+	background: #262626;	
 	padding: 5px 10px;
 	margin-top: 15px;
 	border: 20px palevioletred;
