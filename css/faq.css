@@ -18,10 +18,13 @@
 .titulo-pricipal{
 	font-family: montserrat;
 	font-size: 60px;
+	color: white;
 }
 .navegaçao{
-	background: #00D16F;
-
+	background: #0ba15b;	
+	padding: 5px 10px;
+	margin-top: 15px;
+	border: 20px palevioletred;
 }
 .faq-navegaçao{
 		margin: 20px
